@@ -2,7 +2,9 @@ import React from 'react'
 
 function Form(props) {  
     return (
-        <p>Hi</p>
+        <div className="post-form">
+            <p>Hi</p>
+        </div>
     )
 }
 
