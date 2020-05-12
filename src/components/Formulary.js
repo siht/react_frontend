@@ -12,9 +12,18 @@ function Formulary(props) {
             >
                 {({isSubmitting}) => (
                     <Form>
-                        <Field type="text" name="nombre" />
-                        <Field type="text" name="titulo" />
-                        <Field type="file" name="imagen" />
+                        <p>
+                            <label htmlFor="nombre">Nombre:</label>
+                            <Field type="text" name="nombre" />
+                        </p>
+                        <p>
+                            <label htmlFor="titulo">Título:</label>
+                            <Field type="text" name="titulo" />
+                        </p>
+                        <p>
+                            <label htmlFor="imagen">Imagen:</label>
+                            <Field type="file" name="imagen" />
+                        </p>
                         <button type="submit" disabled={isSubmitting}>
                             Submit
                         </button>
