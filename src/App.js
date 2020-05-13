@@ -7,7 +7,7 @@ import {
 import Header from './components/Header'
 import ImageList from './components/ImageList'
 import Sidebar from './components/Sidebar'
-import Form from './components/Form'
+import Formulary from './components/Formulary'
 import './App.css';
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
         <Sidebar />
         <Switch>
           <Route path="/insert">
-            <Form />
+            <Formulary />
           </Route>
           <Route path="/">
             <ImageList />
